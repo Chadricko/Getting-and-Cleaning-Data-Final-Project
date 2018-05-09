@@ -14,9 +14,12 @@ data from the training set.
 
 In Section 5 of my script I combine the three data frames containing observation data from the training set to make a singular data frame of the observation data that was used for Training.  All column labels are also correct for this data frame.   
 
-Section 6 is like Section 2, only the Test data is imported into data frames.  
+Section 6 is like Section 2, only the Test data is imported into data frames. 
+
 Section 7 is like Section 3 only again for Test data not Train data.
+
 Section 8 is like Section 4 but again, for data relevant to the Test set.
+
 Section 9 is like Section 5 except here a data frame containing all of the relevant Test Data has been formed.
 
 Section 10 is where using rbind I am able to combine the train set data frame and the test set data frame.  Now I will 
