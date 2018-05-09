@@ -37,9 +37,9 @@ myTrainDF <- cbind(xTrainDF, yTrainDF,subjectTrainDF)
 
 ##import Test observations:
 
-subjectTestDF <- read.table("C:/Users/R/Desktop/JH Certificate Program/Course 3/UCI HAR Dataset/test/subject_test.txt", header = FALSE)
-xTestDF <- read.table("C:/Users/R/Desktop/JH Certificate Program/Course 3/UCI HAR Dataset/test/X_test.txt", header = FALSE)
-yTestDF <- read.table("C:/Users/R/Desktop/JH Certificate Program/Course 3/UCI HAR Dataset/test/Y_test.txt", header = FALSE)
+subjectTestDF <- read.table("./UCI HAR Dataset/test/subject_test.txt", header = FALSE)
+xTestDF <- read.table("./UCI HAR Dataset/test/X_test.txt", header = FALSE)
+yTestDF <- read.table("./UCI HAR Dataset/test/Y_test.txt", header = FALSE)
 
 ##Assign feature names to xTRainDF Columns:
 
@@ -119,5 +119,4 @@ for (i in k){
 
 names(DFQ5)<- paste(sub("Frequency ", "Mean of Frequency ", names(DFQ5)))
 names(DFQ5)<- paste(sub("Time ", "Mean of Time ", names(DFQ5)))
-
 
