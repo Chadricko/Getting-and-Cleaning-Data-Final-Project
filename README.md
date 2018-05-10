@@ -1,6 +1,9 @@
 # Getting-and-Cleaning-Data-Final-Project
 John Hopkins and Coursera
 
+The CodeBook.md contains a list of variables that I instantiated and their basic functions in the script. 
+
+run_analysis.R contains the script I generated for the project. Below is a basic description of the script, section by section detailing what the script is designed to do:
      
    Section 1 of my Script imports the feature labels and the activity labels from the provided files.  The feature labels later become the 
 names of the columns that hold the data they describe.  The activity labels will eventual be subbed in to the Activity column in place of the less human friendly number system that the tables came with.
